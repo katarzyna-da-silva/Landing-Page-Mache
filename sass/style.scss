@@ -430,7 +430,7 @@
                 margin-top: 25px;
                 line-height: 25px;
                 font-size: 14px;
-                color: rgb(214, 211, 211);
+                color: rgb(104, 100, 100);
             }
             .btn {
                 width: 170px;
@@ -452,25 +452,110 @@
         }
         
         .overview {
-            text-align: center;
+            text-align: left;
             margin: 80px auto;
             .customer {
-                width: 370px;
+                width: 330px;
                 height: 190px;
+                margin-left: 20px;
                 h5 {
                     text-transform: uppercase;
                     color: #ED145B;
                     font-size: 16px;
                     font-weight: bold;
-                    margin-left: 91px;
                     text-align: justify;
+                    margin-left: 90px;
                 }
                 p {
                     font-size: 14px;
                     color: grey;
                     text-align: justify;
+                    padding-top: 10px;
                     padding-left: 90px;
-                    padding-top: -50px;
                 }
+            }
+            .icon-customer {
+                position: relative;
+                img {
+                    width: 32px;
+                    height: 28px;
+                    position: absolute;
+                    top: 31px;
+                    left: 45px;
+                    bottom: 0;
+                }
+            }
+        }
+        
+        .join-us {
+            width: 100%;
+            height: 100px;
+            background: #ED145B;
+            p {
+                width: 80%;
+                text-align: center;
+                font-size: 28px;
+                margin-top: 35px;
+                letter-spacing: 2px;
+                color: white;
+                text-transform: uppercase;
+                position: relative;
+                font-family: 'Raleway', sans-serif;
+            }
+            span {
+                font-weight: bold;
+            }
+            button {
+                border-radius: 24px;
+                border: 1px solid white;
+                width: 180px;
+                height: 40px;
+                position: absolute;
+                right: 360px;
+                justify-content: end;
+                margin-top: 30px;
+                color: #ED145B;
+                text-transform: capitalize;
+                font-size: 16px;
+                font-weight: bold;
+                .btn-join {
+                    width: 20%;
+                }
+            }
+        }
+        
+        .gallery-section {
+            .gallery-img {
+                h2 {
+                    padding-top: 80px;
+                    margin: 0 auto;
+                    font-size: 27px;
+                    line-height: 28px;
+                    font-weight: 300;
+                    &::after {
+                        content: "";
+                        display: block;
+                        background-color: #ED145B;
+                        height: 2px;
+                        width: 150px;
+                        position: absolute;
+                        line-height: 30px;
+                        margin-top: 30px;
+                        margin-left: 30px;
+                    }
+                }
+                p {
+                    text-align: center;
+                    margin: 80px 280px 50px 290px;
+                    color: rgb(66, 64, 64);
+                    font-size: 16px;
+                    line-height: 30px;
+                    font-weight: 300;
+                }
+            }
+            .gallery-image {
+                border: 1px solid red;
+                display: flex;
+                margin: 50px;
             }
         }
