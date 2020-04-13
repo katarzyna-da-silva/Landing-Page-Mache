@@ -236,7 +236,7 @@
 }
 
 @font-face {
-  font-family: 'DroidSerif-Bold';
+  font-family: "DroidSerif-Bold";
   src: url(../fonts/droidserif-bold.ttf);
 }
 
@@ -249,7 +249,7 @@ html {
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   background: #efeff0;
 }
 
@@ -277,7 +277,7 @@ header nav .logo {
 
 header nav .logo .logo-graphic {
   display: inline-block;
-  color: #ED145B;
+  color: #ed145b;
   font-weight: bold;
   font-size: 30px;
 }
@@ -321,7 +321,7 @@ header .menu ul li {
 }
 
 header .menu ul li:hover a {
-  color: #ED145B;
+  color: #ed145b;
 }
 
 header .menu ul li a {
@@ -331,7 +331,7 @@ header .menu ul li a {
   color: #fff;
   font-weight: bold;
   text-transform: capitalize;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .jumbotron {
@@ -357,7 +357,7 @@ header .menu ul li a {
 .jumbotron h1::after {
   content: "";
   display: block;
-  background-color: #ED145B;
+  background-color: #ed145b;
   height: 2px;
   width: 195px;
   position: absolute;
@@ -382,7 +382,7 @@ header .menu ul li a {
   line-height: 38px;
   font-weight: bold;
   text-transform: uppercase;
-  background-color: #ED145B;
+  background-color: #ed145b;
   border: none;
   border-radius: 25px;
   transition-duration: 0.3s;
@@ -408,7 +408,7 @@ header .menu ul li a {
   position: absolute;
   height: 5vh;
   width: 100%;
-  background-color: #ED145B;
+  background-color: #ed145b;
   transform: rotate(-1deg);
   padding-right: -1px;
 }
@@ -421,8 +421,8 @@ header .menu ul li a {
 
 .first-section .information {
   width: 40%;
-  color: #5A5A5A;
-  font-family: 'Raleway', sans-serif;
+  color: #5a5a5a;
+  font-family: "Raleway", sans-serif;
   font-style: italic;
 }
 
@@ -435,7 +435,7 @@ header .menu ul li a {
 .first-section .information h2::after {
   content: "";
   display: block;
-  background-color: #ED145B;
+  background-color: #ed145b;
   height: 2px;
   width: 200px;
   position: absolute;
@@ -456,7 +456,7 @@ header .menu ul li a {
 
 .first-section .information .video-icon p {
   display: inline-block;
-  color: #ED145B;
+  color: #ed145b;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 600;
@@ -468,12 +468,12 @@ header .menu ul li a {
   margin-top: 5px;
   display: inline-block;
   transform: translate(5px);
-  border: 1px solid #ED145B;
+  border: 1px solid #ed145b;
   width: 27px;
   height: 27px;
   background: white;
   border-radius: 50%;
-  color: #ED145B;
+  color: #ed145b;
   text-align: center;
 }
 
@@ -493,39 +493,6 @@ header .menu ul li a {
   width: 680px;
   z-index: 2;
   transform: translate(100px, -520px);
-}
-
-.services {
-  margin: 150px 0 200px 0;
-}
-
-.services h2 {
-  margin: 0 auto;
-  color: #5A5A5A;
-  font-size: 28px;
-  line-height: 28px;
-  font-weight: 300;
-}
-
-.services h2::after {
-  content: "";
-  display: block;
-  background-color: #ED145B;
-  height: 2px;
-  width: 150px;
-  position: absolute;
-  line-height: 40px;
-  margin-top: 30px;
-  margin-left: 1px;
-}
-
-.services p {
-  text-align: center;
-  margin: 80px 220px 50px 220px;
-  color: #424040;
-  font-size: 16px;
-  line-height: 30px;
-  font-weight: 300;
 }
 
 .services .icons {
@@ -550,13 +517,14 @@ header .menu ul li a {
   margin-bottom: 80px;
   text-transform: uppercase;
   font-size: 16px;
-  color: #ED145B;
+  color: #ed145b;
   font-weight: bold;
   white-space: nowrap;
   word-spacing: 3px;
 }
 
 .quotation-marks {
+  margin-top: 150px;
   width: 100%;
   height: 450px;
   background-image: url(../image/background-image.png);
@@ -609,78 +577,46 @@ header .menu ul li a {
 }
 
 .quotation-marks .quote p {
-  color: #ED145B;
+  color: #ed145b;
   font-size: 60px;
   font-weight: 900;
   justify-content: center;
   line-height: 40px;
 }
 
-.cards-section {
-  background: #ebebeb;
-  height: 870px;
-}
-
-.cards-section .check h2 {
-  padding-top: 80px;
-  margin: 0 auto;
-  font-size: 27px;
-  line-height: 28px;
-  font-weight: 300;
-}
-
-.cards-section .check h2::after {
-  content: "";
-  display: block;
-  background-color: #ED145B;
-  height: 2px;
-  width: 150px;
-  position: absolute;
-  line-height: 30px;
-  margin-top: 30px;
-  margin-left: 30px;
-}
-
-.cards-section p {
-  text-align: center;
-  margin: 80px 220px 50px 220px;
-  color: #424040;
-  font-size: 16px;
-  line-height: 30px;
-  font-weight: 300;
-}
-
-.cards-info {
+.cards-section .cards-info {
   display: flex;
 }
 
-.box {
+.cards-section .box {
   width: 200px;
   margin: 40px;
   height: 125px;
   padding-top: 15px;
-  background: #464646;
+  text-align: center;
+  background: #444444;
   color: white;
   border: 1px solid #e0e0e0;
 }
 
-.box:nth-child(2) {
-  background: #ED145B;
+.cards-section .box:nth-child(2) {
+  background: #ed145b;
 }
 
-.box p {
+.cards-section .box p {
   margin: 0 auto;
+  padding-top: 15px;
   color: white;
   font-size: 18px;
   font-weight: bold;
 }
 
-.box .month {
+.cards-section .box .month {
   font-size: 14px;
   margin-top: -10px;
 }
 
-.box .button {
+.cards-section .box .button {
   z-index: 3;
   width: 170px;
   height: 40px;
@@ -688,7 +624,6 @@ header .menu ul li a {
   background-color: #e9e5e5;
   border: 1px solid #f3f2f2;
   border-radius: 24px;
-  margin-left: 15px;
   margin-top: 30px;
   color: grey;
   text-transform: uppercase;
@@ -696,43 +631,44 @@ header .menu ul li a {
   font-weight: bold;
 }
 
-.info-cards {
-  height: 330px;
+.cards-section .info-cards {
+  height: 350px;
   z-index: 1;
   border: 1px solid white;
-  background: white;
+  background: #fcfcfc;
   margin-top: -20px;
 }
 
-.info-cards p {
+.cards-section .info-cards p {
   margin-top: 25px;
-  line-height: 25px;
+  line-height: 15px;
   font-size: 14px;
-  color: #686464;
+  color: #5f5f5f;
 }
 
-.info-cards .btn {
+.cards-section .info-cards .btn {
   width: 170px;
-  height: 40px;
+  height: 45px;
   text-align: center;
-  background: #ED145B;
-  border: 1px solid #ED145B;
+  background: #ed145b;
+  border: 1px solid #ed145b;
   border-radius: 24px;
-  margin-left: 15px;
-  margin-top: 30px;
   text-transform: uppercase;
   font-weight: bold;
+  margin-top: 40px;
 }
 
-.info-cards .btn p {
+.cards-section .info-cards .btn p {
+  text-align: center;
+  padding-top: 5px;
   margin: 0 auto;
   color: white;
   font-size: 12px;
 }
 
 .overview {
+  margin-top: 450px;
   text-align: left;
-  margin: 80px auto;
 }
 
 .overview .customer {
@@ -743,7 +679,7 @@ header .menu ul li a {
 
 .overview .customer h5 {
   text-transform: uppercase;
-  color: #ED145B;
+  color: #ed145b;
   font-size: 16px;
   font-weight: bold;
   text-align: justify;
@@ -774,7 +710,7 @@ header .menu ul li a {
 .join-us {
   width: 100%;
   height: 100px;
-  background: #ED145B;
+  background: #ed145b;
 }
 
 .join-us p {
@@ -786,7 +722,7 @@ header .menu ul li a {
   color: white;
   text-transform: uppercase;
   position: relative;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .join-us span {
@@ -802,7 +738,7 @@ header .menu ul li a {
   right: 360px;
   justify-content: end;
   margin-top: 30px;
-  color: #ED145B;
+  color: #ed145b;
   text-transform: capitalize;
   font-size: 16px;
   font-weight: bold;
@@ -812,39 +748,281 @@ header .menu ul li a {
   width: 20%;
 }
 
-.gallery-section .gallery-img h2 {
-  padding-top: 80px;
+.gallery {
+  padding-bottom: 60px;
+}
+
+.gallery .section-description {
+  margin-bottom: 50px;
+}
+
+.gallery .gallery-item {
+  margin: 30px 15px;
+  background-color: #dfdfdf;
+  cursor: pointer;
+}
+
+.gallery .gallery-item .photo-wrapper {
+  position: relative;
+}
+
+.gallery .gallery-item .photo-wrapper::after {
+  content: "";
+  display: block;
+  background-color: #ed145b;
+  clip-path: polygon(0 0, 0% 100%, 100% 100%);
+  width: 100%;
+  height: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.gallery .gallery-item .photo-wrapper img.photo {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.gallery .gallery-item .photo-wrapper .layer {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(237, 20, 91, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.gallery .gallery-item .photo-wrapper .layer img.photo-icon {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.gallery .gallery-item:hover .layer {
+  opacity: 1;
+}
+
+.gallery .gallery-item:hover ::after {
+  opacity: 0;
+}
+
+.gallery .gallery-item .photo-description {
+  padding: 30px 15px;
+  text-align: left;
+}
+
+.gallery .show-more {
+  text-align: center;
+  cursor: pointer;
+  margin: 5% auto;
+  display: block;
+  transition: 0.3s;
+}
+
+.gallery .show-more p {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #ed145b;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.gallery .show-more:hover {
+  transform: scale(1.05);
+}
+
+.jumbotron-last {
+  width: 100%;
+  height: 80vh;
+  background-image: url(../image/background-image.png);
+  background-size: cover;
+  background-position: 50% 0%;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.jumbotron-last .text {
   margin: 0 auto;
-  font-size: 27px;
+  text-align: center;
+}
+
+.jumbotron-last .text h2 {
+  margin-top: 210px;
+  margin-bottom: 80px;
+  font-size: 34px;
+  text-transform: uppercase;
+  font-weight: 300;
+  position: relative;
+  color: white;
+  font-style: italic;
+}
+
+.jumbotron-last .text h2 span {
+  font-weight: 900;
+}
+
+.jumbotron-last .text h2::after {
+  content: "";
+  display: block;
+  background-color: #ed145b;
+  height: 2px;
+  width: 195px;
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.jumbotron-last .text p {
+  font-size: 16px;
+  line-height: 38px;
+  font-weight: 300;
+  color: white;
+}
+
+.jumbotron-last .text button {
+  margin-top: 50px;
+  height: 50px;
+  padding: 0 50px;
+  color: #e9e9e9;
+  font-size: 15px;
+  line-height: 38px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #ed145b;
+  border: none;
+  border-radius: 25px;
+  transition-duration: 0.3s;
+  outline: none;
+  cursor: pointer;
+}
+
+.jumbotron-last .text button:hover {
+  transform: scale(1.1);
+}
+
+.template-style {
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  margin-top: 80px;
+}
+
+.template-style img {
+  width: 90%;
+  height: 450px;
+  margin-right: 120px;
+}
+
+.template-style h2 {
+  margin-top: 65px;
+  margin-bottom: 80px;
+  color: #555555;
+  font-size: 34px;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-style: italic;
+}
+
+.template-style p {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  color: #2b2b2b;
+}
+
+.template-style button {
+  margin-top: 50px;
+  height: 50px;
+  padding: 0 50px;
+  color: #e9e9e9;
+  font-size: 15px;
+  line-height: 38px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #ed145b;
+  border: none;
+  border-radius: 25px;
+  transition-duration: 0.3s;
+  outline: none;
+  cursor: pointer;
+}
+
+.template-style button:hover {
+  transform: scale(1.1);
+}
+
+.section-title {
+  padding-top: 150px;
+  margin: 0 auto;
+  color: #5a5a5a;
+  font-size: 32px;
   line-height: 28px;
   font-weight: 300;
 }
 
-.gallery-section .gallery-img h2::after {
+.section-title::after {
   content: "";
   display: block;
-  background-color: #ED145B;
+  background-color: #ed145b;
   height: 2px;
-  width: 150px;
+  width: 180px;
   position: absolute;
-  line-height: 30px;
+  line-height: 40px;
   margin-top: 30px;
-  margin-left: 30px;
+  text-align: center;
 }
 
-.gallery-section .gallery-img p {
+.section-description {
   text-align: center;
-  margin: 80px 280px 50px 290px;
-  color: #424040;
-  font-size: 16px;
+  padding: 80px 150px 80px 150px;
+  color: #807d7d;
+  font-size: 18px;
   line-height: 30px;
   font-weight: 300;
 }
 
-.gallery-section .gallery-image {
-  border: 1px solid red;
+footer {
+  width: 100%;
+  height: 150px;
+  background: #2e2e2e;
   display: flex;
-  margin: 50px;
+  margin-top: 80px;
+}
+
+.footer p {
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  padding-top: 50px;
+  text-transform: uppercase;
+}
+
+.footer .copyright {
+  justify-content: start;
+  text-align: start;
+}
+
+.footer .symu {
+  justify-content: end;
+  text-align: end;
+}
+
+.footer span {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.footer .text-decoration {
+  color: red;
+  font-size: 24px;
 }
 
 /*# sourceMappingURL=style.css.map */
